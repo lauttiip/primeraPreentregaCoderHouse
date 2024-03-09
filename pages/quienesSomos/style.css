@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(../../assets/fondoPrincipalQuienesSomos.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background: linear-gradient(#03353a, 30%, transparent);
+    width: 100%;
+    height: 4rem;    
+
+}
+
+.headerIndex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: 100%;
+    height: 3.9994rem;
+
+}
+
+.headerIndex .logoNav{
+    width: 30%;
+    height: 100%;
+}
+
+.logoNav .logo {
+    height: 100%;
+    width: auto;
+}
+
+.headerIndex nav{
+    width: 70%;
+    margin-right: 20px;
+}
+
+.navBar{
+    display: flex;
+    height: 100%;    
+    list-style-type: none; 
+    gap: 2rem;
+    justify-content: right;
+    flex-wrap: wrap;
+    
+}
+
+.navBar li{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 1.7rem; 
+    text-shadow: 5px 5px 4px black;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+main section{
+    width: 100%;
+    height: 100%;
+}
+
+section .nosotros{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+}
+
+
+
+.nosotros .texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 20%;
+}
+
+.nosotros .texto h3{
+    color: #d4d4d4;
+    font-size: 4rem;
+    text-decoration: underline;
+    text-shadow: 3px 3px 9px rgb(3, 81, 92) ;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card{
+    width: 25rem;
+    height: 40rem;
+    border: 3px solid rgb(31, 89, 112);
+    border-radius: 20% 20% 5px 5px ;   
+    overflow: hidden;
+}
+
+.card .cardImg{
+    height: 70%;
+}
+
+.card .cardImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.card .cardInfo{
+    background-color: #97b1b3 ;
+    height: 30%;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.card .cardInfo h4{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px 0;
+    color: #3C160F;
+    text-decoration: underline;
+}
+
+.card .cardInfo p{
+    font-size: 1rem;
+}
+
+.footerAbout{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008E9F;
+}
+
+.footerAbout .copyright {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.footerAbout .copyright h5{
+    color: aliceblue;
+    font-size: medium;
+}
+
+.footerAbout .anclas{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footerAbout .anclas a{
+    color: aliceblue;
+    font-size: medium;
+}

@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(../../assets/fondoPrincipalAcceso.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background: linear-gradient(#1F0619, 50%, transparent);
+    width: 100%;
+    height: 4rem;    
+}
+
+.headerIndex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: 100%;
+    height: 3.9994rem;
+
+}
+
+.headerIndex .logoNav{
+    width: 30%;
+    height: 100%;
+}
+
+.logoNav .logo {
+    height: 100%;
+    width: auto;
+}
+
+.headerIndex nav{
+    width: 70%;
+    margin-right: 20px;
+}
+
+.navBar{
+    display: flex;
+    height: 100%;    
+    list-style-type: none; 
+    gap: 2rem;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.navBar li{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 1.7rem; 
+    text-shadow: 5px 5px 4px black;
+}
+
+main{
+    width: 100%;
+    height: 95vh;
+}
+
+.formGeneral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;    
+    text-align: center;
+    flex-direction: column;
+}
+
+.formulario{
+    width: 350px;
+    height: 450px;
+    border: 2px solid #3f3c3b;
+    background-color: #342834;
+    border-radius: 10px;
+}
+
+
+.formulario h1{
+    text-align: center;
+    height: 3.5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-bottom: 1px solid silver;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.formulario form{
+    padding: 0 40px;
+}
+
+form .username{
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #3f3c3b;
+    margin: 20px 0;
+}
+
+.username label{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #adadad;
+    text-shadow: 0 .5px #FE878D;
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+.username input{
+    width: 100%;
+    padding:  0 5px;
+    height: 40px;
+    font-size: 18px;
+    background: none;
+    outline:  none;
+    border: .125rem solid #3f3c3b;
+    color: #ffffff;
+}
+
+.recordar{
+    margin: -5px 0 20px 5px;
+}
+
+.recordar a{
+    color: #FE878D;
+    text-decoration: none;
+}
+
+.botonIniciar {
+    width: 100%;
+    height: 3.125rem;
+    border: 4px solid rgb(51, 20, 36);
+    border-radius: 30px;
+    background-color: #F1E2E5;
+    font-size: 20px;
+    color: rgb(102, 56, 90);
+    cursor: pointer;
+}
+
+.registrarse{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.125rem;
+    color: #FE878D;
+}
+
+.registrarse a{
+    color: #F1E2E5;
+}
+
+.footerAbout{
+    width: 100%;
+    height: 1.875rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F0619;
+}
+
+.footerAbout .copyright {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.footerAbout .copyright h5{
+    color: aliceblue;
+    font-size: medium;
+}
+
+.footerAbout .anclas{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footerAbout .anclas a{
+    color: aliceblue;
+    font-size: medium;
+}

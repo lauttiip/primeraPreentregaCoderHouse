@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(../../assets/fondoPrincipalReservas.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background: linear-gradient(#4e497e, 50%, transparent);
+    width: 100%;
+    height: 4rem;    
+
+}
+
+.headerIndex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: 100%;
+    height: 3.9994rem;
+
+}
+
+.headerIndex .logoNav{
+    width: 30%;
+    height: 100%;
+}
+
+.logoNav .logo {
+    height: 100%;
+    width: auto;
+}
+
+.headerIndex nav{
+    width: 70%;
+    margin-right: 20px;
+}
+
+.navBar{
+    display: flex;
+    height: 100%;    
+    list-style-type: none; 
+    gap: 2rem;
+    justify-content: right;
+    flex-wrap: wrap;
+    
+}
+
+.navBar li{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 1.7rem; 
+    text-shadow: 5px 5px 4px black;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+main .form{
+    width: 100%;
+    height: 95%;
+}
+
+.form form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.form form fieldset{
+    display: flex;
+    align-items: center;
+    height: 15rem;
+    width: 60%;
+    border: 4px solid #6b2e6b;
+}
+
+
+fieldset legend{
+    font-size: 2rem;
+    padding: 1px 3px;
+    text-align: center;
+    color: #e1b2f3;
+    text-decoration: 3px underline #6b2e6b;
+    border-right: 3px solid #6b2e6b;
+    border-left: 3px solid #6b2e6b;
+    
+}
+
+fieldset div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+.labels{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 1.25rem;
+}
+
+.labels div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+
+}
+
+.labels div label{
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    color: #e1b2f3;
+    text-shadow: 1px 1px black;
+}
+
+.labels input{
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+
+.footerAbout{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8F88CE;
+}
+
+.footerAbout .copyright {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.footerAbout .copyright h5{
+    color: aliceblue;
+    font-size: medium;
+}
+
+.footerAbout .anclas{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footerAbout .anclas a{
+    color: aliceblue;
+    font-size: medium;
+}

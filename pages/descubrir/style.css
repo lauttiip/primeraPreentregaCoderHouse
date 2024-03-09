@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(150deg, #E7F09B, #99968E, #16211C, #EBBAA5, #DCED9E );
+    width: 100%;
+    height: 100vh;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+header{
+    background: linear-gradient(#99968E, 30%, transparent);
+    width: 100%;
+    height: 4rem;    
+
+}
+
+.headerIndex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: 100%;
+    height: 3.9994rem;
+
+}
+
+.headerIndex .logoNav{
+    width: 30%;
+    height: 100%;
+}
+
+.logoNav .logo {
+    height: 100%;
+    width: auto;
+}
+
+.headerIndex nav{
+    width: 70%;
+    margin-right: 20px;
+}
+
+.navBar{
+    display: flex;
+    height: 100%;    
+    list-style-type: none; 
+    gap: 2rem;
+    justify-content: right;
+    flex-wrap: wrap;
+    
+}
+
+.navBar li{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 1.7rem; 
+    text-shadow: 5px 5px 4px black;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 92vh;
+}
+
+main section{
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    height: 100%;
+}
+/* carta1 */
+.card{
+    
+    width: 30rem;
+    height: 40rem;
+    border: 2px solid black;
+    border-radius: 20% 20px ;
+    overflow: hidden;
+    background: linear-gradient(150deg, #A5DD9B, #C5EBAA, #F6F193, #F2C18D );
+}
+
+.card div{
+    width: 100%;
+    height: 15%;
+
+}
+
+.card .cardTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    color: #1b4d3c;
+}
+
+.cardTitulo h1{
+    font-size: 2.5rem;
+    padding: 10px 10px;
+    text-decoration: 2px overline  #ececec;
+}
+
+.card .cardInfo{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .cardImg{
+    width: 100%;
+    height: 65%;
+
+}
+
+.card .cardImg img{
+    background-size: contain;
+    width: 100%;
+    height: 90%;
+}
+
+.card .cardAnclas{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;  
+    
+}
+
+.cardAnclas a{
+    text-decoration: underline ;
+    font-size: x-large;
+    letter-spacing: 7px;
+    margin-top: 15px;
+    color: #105a41;
+
+}
+
+.card .cardAnclas{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* carta2 */
+
+.card2{
+    
+    width: 30rem;
+    height: 40rem;
+    border: 2px solid black;
+    border-radius: 20% 20px ;
+    overflow: hidden;
+    background: linear-gradient(150deg, #0181C8, #C1CED7, #FCB392, #555E6D );
+}
+
+.card2 div{
+    width: 100%;
+    height: 15%;
+
+}
+
+.card2 .cardTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    color: #193a81;
+}
+
+.card2 .cardTitulo h1{
+    font-size: 2.5rem;
+    padding: 10px 10px;
+    text-decoration: 2px overline  #ececec;
+}
+
+.card2 .cardInfo{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card2 .cardImg{
+    width: 100%;
+    height: 60%;
+}
+
+.card2 .cardImg img{
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.card2 .cardAnclas{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;  
+    height: 40%;
+}
+
+.card2 .cardAnclas a{
+    text-decoration: underline ;
+    font-size: x-large;
+    letter-spacing: 7px;
+    margin-top: 10px;
+    color: #193a81;
+
+}
+
+.card2 .cardAnclas{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* carta3 */
+
+.card3{
+    
+    width: 30rem;
+    height: 40rem;
+    border: 2px solid black;
+    border-radius: 20% 20px ;
+    overflow: hidden;
+    background: linear-gradient(150deg, #344239, #ABA59D, #7B7A6D, #A9A195);
+}
+
+.card3 div{
+    width: 100%;
+    height: 15%;
+
+}
+
+.card3 .cardTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    color: #2A3936;
+    text-shadow: 2px 2px gray;
+}
+
+.card3 .cardTitulo h1{
+    font-size: 2.5rem;
+    padding: 10px 10px;
+    text-decoration: 2px overline  #ececec;
+}
+
+.card3 .cardInfo{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card3 .cardImg{
+    width: 100%;
+    height: 60%;
+}
+
+.card3 .cardImg img{
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.card3 .cardAnclas{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;  
+    height: 40%;
+}
+
+.card3 .cardAnclas a{
+    text-decoration: underline ;
+    font-size: x-large;
+    letter-spacing: 7px;
+    margin-top: 10px;
+    color: #2A3936;
+
+}
+
+.card3 .cardAnclas{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+.footerAbout{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #99968E;
+}
+
+.footerAbout .copyright {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.footerAbout .copyright h5{
+    color: aliceblue;
+    font-size: medium;
+}
+
+.footerAbout .anclas{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footerAbout .anclas a{
+    color: aliceblue;
+    font-size: medium;
+}
